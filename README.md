@@ -1,36 +1,43 @@
-Pseudo Code:
+# Class Assignment :
+
+## Program 1 Documentation: Print Numbers from 1 to N (Using While Loop)
+
+## Pseudo Code
 
 START
 INPUT number
 IF number <= 0
-    PRINT "Invalid input"
+PRINT "Invalid input"
 ELSE
-    SET i = 1
-    WHILE i <= number
-        PRINT i
-        i = i++
+SET i = 1
+WHILE i <= number
+PRINT i
+i = i + 1
 END IF
 END
 
-Trace Table:
 
-input number = 4;
+---
+
+## Trace Table
+
+**Input:** `number = 4`
 
 | Step | i | Condition (i ≤ number) | Output |
-| ---- | - | ---------------------- | ------ |
+|------|---|------------------------|--------|
 | 1    | 1 | true                   | 1      |
 | 2    | 2 | true                   | 2      |
 | 3    | 3 | true                   | 3      |
 | 4    | 4 | true                   | 4      |
 | 5    | 5 | false                  | Stop   |
 
+---
 
-Test Cases:
+## Test Cases
 
-| Test Case | Input | Output        |
-| --------- | ----- | ------------- |
-| 1         | 5     | 1 2 3 4 5     |
-| 2         | 1     | 1             |
-| 3         | 0     | Invalid input |
-| 4         | -2    | Invalid input |
-
+| Test Case | Input | Output         |
+|----------|-------|-----------------|
+| 1        | 5     | 1 2 3 4 5       |
+| 2        | 1     | 1               |
+| 3        | 0     | Invalid input   |
+| 4        | -2    | Invalid input   |
