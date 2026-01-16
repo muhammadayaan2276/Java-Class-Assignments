@@ -11,7 +11,7 @@ public class PrintNumbers {
             int i = 1;
             while(i <= number ){
                 System.out.println(i);
-                i++;
+                i = i + 1;
 
             }
         }
