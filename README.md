@@ -4,16 +4,17 @@
 
 ## Pseudo Code
 
-START
-INPUT number
-IF number <= 0
-PRINT "Invalid input"
-ELSE
-SET i = 1
-WHILE i <= number
-PRINT i
-i = i + 1
-END IF
+START  
+INPUT number  
+IF number <= 0  
+&nbsp;&nbsp;&nbsp;&nbsp;PRINT "Invalid input"  
+ELSE  
+&nbsp;&nbsp;&nbsp;&nbsp;SET i = 1  
+&nbsp;&nbsp;&nbsp;&nbsp;WHILE i <= number  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRINT i  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1  
+&nbsp;&nbsp;&nbsp;&nbsp;END WHILE  
+END IF  
 END
 
 
